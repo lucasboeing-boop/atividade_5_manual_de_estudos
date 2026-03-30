@@ -11,8 +11,11 @@ Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usa
 <br>
 <i>Var: A maneira mais antiga de declarar uma variável, com escopo global ou de função;</i>
 <br>
+<br>
 <i>Let: Usados para dados que podem ter seus dados alterados;</i>
 <br>
+<br>
 <i>Const: Usado em constantes, valores fixos, não podem ser <strong>reatribuídos</strong>depois da primeira atribuição;</i>
+<br>
 <br>
 <i>Escopo Global: Uma variável que quando declarada no escopo global, se torna acessível e modificável em qualquer lugar do script;</i>
