@@ -8,8 +8,9 @@ Dentro de um documento HTML, o JavaScript adiciona interatividade, comportamento
 Em um arquivo separado, normalmente nomeado de <strong>Script.js</strong>, o JavaScript serve para a organização do código, facilita o manipulamento do site e melhora o desempenho.
 <h2>Variáveis no JS</h2>
 Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usasse as declarações <strong>var</strong>,<strong>let</strong> e <strong>const</strong>.
+<br>
 <i>Var: A maneira mais antiga de declarar uma variável, com escopo global ou de função;</i>
 <br>
-<i>Let: Usados para dados que podem ter seus dados alterados/</i>
+<i>Let: Usados para dados que podem ter seus dados alterados;</i>
 <br>
 <i>Const: Usado em constantes, valores fixos, não podem ser <strong>reatribuídos</strong>depois da primeira atribuição;</i>
