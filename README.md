@@ -1,1 +1,1 @@
-# atividade_5_-anual_de_estudos
+# atividade_5_-manual_de_estudos
