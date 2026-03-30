@@ -6,3 +6,5 @@ O JavaScript é uma linguagem de programação interpretada de alto nível, esse
 Dentro de um documento HTML, o JavaScript adiciona interatividade, comportamento e manipulação de elementos da página de forma mais rápida e localizada.
 <h2>Arquivo Script.js</h2>
 Em um arquivo separado, normalmente nomeado de <strong>Script.js</strong>, o JavaScript serve para a organização do código, facilita o manipulamento do site e melhora o desempenho.
+<h2>Variáveis no JS</h2>
+Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usasse as declarações <strong><italian>var</italian></strong>,<strong><italian>let</italian></strong> e <strong><italian>const</italian></strong>.
