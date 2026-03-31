@@ -54,10 +54,14 @@ Esses operadores servem para realizar cálculos matemáticos fundamentais, esses
 <h4>!== : Serve para verificar se os valores são diferentes, mas os valores <strong>precisam ser exatamente iguais</strong>;</h4>
 <h3>Exemplos</h3>
 5 == ”5”
-O operador tenta converter a string em número antes de comparar, retorna true
+O operador tenta converter a string em número antes de comparar, retorna true;
+<br>
 5 === “5”
-Verifica tanto o tipo quanto o número, como um é número e outro é string, retorna false
+Verifica tanto o tipo quanto o número, como um é número e outro é string, retorna false;
+<br>
 5 != “5”
-O operador tenta converter a string em número antes de comparar, mas como possui o ! retorna false
+O operador tenta converter a string em número antes de comparar, mas como possui o ! retorna false;
+<br>
 5 !== “5”
-Verifica tanto o tipo quanto o número, como um é número e outro é string, mas como possui o ! retorna true
+Verifica tanto o tipo quanto o número, como um é número e outro é string, mas como possui o ! retorna true;
+<br>
