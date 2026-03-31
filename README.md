@@ -6,7 +6,7 @@ O JavaScript é uma linguagem de programação interpretada de alto nível, esse
 Dentro de um documento HTML, o JavaScript adiciona interatividade, comportamento e manipulação de elementos da página de forma mais rápida e localizada.
 <h2>Arquivo Script.js</h2>
 Em um arquivo separado, normalmente nomeado de <strong>Script.js</strong>, o JavaScript serve para a organização do código, facilita o manipulamento do site e melhora o desempenho.
-<h2>Variáveis no JS</h2>
+<h2>Variáveis no JavaScript</h2>
 Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usasse as declarações <strong>var</strong>,<strong>let</strong> e <strong>const</strong>.
 <br>
 <i>Var: A maneira mais antiga de declarar uma variável, com escopo global ou de função;</i>
@@ -66,7 +66,7 @@ O operador tenta converter a string em número antes de comparar, mas como possu
 Verifica tanto o tipo quanto o número, como um é número e outro é string, mas como possui o ! retorna true;
 <br>
 <br>
-<h1>Estruturas condicionais</h1>
+<h2>Estruturas condicionais</h2>
 <h4>if : Faz a execução de um código de um bloco apenas <i>CASO</i> uma condição for verdadeira;</h4>
 <h4>if...else : Faz a execução do primeiro bloco de código para o primeiro bloco cuja condição for verdadeira;</h4>
 <h4>switch : Estrutura de controle de fluxo, faz a avaliação de uma expressão e executa o bloco de código com base em <i>cases</i>;</h4>
@@ -74,7 +74,21 @@ Verifica tanto o tipo quanto o número, como um é número e outro é string, ma
 Permitem a execução de um bloco de código várias vezez, automatizando tarefas.
 <h4>for : Executa a repetição de um bloco de código com base em uma condição;</h4>
 <h4>while : Executa a repetição de um bloco de código enquanto uma condição for verdadeira;</h4>
-<h1>Funções</h1>
+<h2>Funções</h2>
 É um bloco de código reutilizável, criado para realizar uma tarefa específica, sendo definido pela palavra <strong><i>function</i></strong>. São usados para organizar códigos, aceitam parâmetros e podem retornar resultados utilizando <strong><i>return</i></strong>. Para chamar uma função é utilizado o <strong><i>nome</i></strong> dela e seguido de <strong><i>parênteses</i></strong>. Se a função exigir parênteses, coloque os valores dentro deles.<br><br>
 As <strong>funções com parâmetros</strong> passam informações para dentro da função, tornando elas mais dinâmicas, reutilizáveis e flexíveis.<br><br>
 As <strong>funções com retorno</strong> são blocos de código que após realizarem a sua função, utilizam a palavra <strong><i>return</i></strong> para enviar um valor de volta para onde a função foi chamada, podendo ser armazedo em uma variável, exibido no console ou usado em outras expressões.
+<h2>Manipulação de página com JavaScript</h2>
+<h4>Document : É o objeto porta de entrada para a manipulação de páginas web, ele atua como interface principal entre o <strong><i>script</i></strong> e o <strong><i>HTML/CSS</i></strong>, fazendo assim, parte do <strong>DOM</strong>(Document Object Model), que é a representação de árvore da página que o navegador cria ao carregar o site;</h4>
+<br>
+<br>
+<h4>GetElementById() : Permite encontrar um elemento HTML específico com base no seu <i>ID</i> único, para que ele possa manipulá-lo;</h4>
+<br>
+<br>
+<h4>QuerySelector() : Seleciona o primeiro elemento do documento HTML que corresponde a um seletor CSS especificado, retorna um único objeto <strong><i>element</i></strong> e caso nenhum for encontrado, o retorno será <strong><i>null</i></strong>.</h4>
+<br>
+<br>
+<h4>.Value : É usado para obter ou definir o valor atual de elementos de formulários HTML.</h4>
+<br>
+<br>
+<h4>.Checked : Utilizado para verificar ou alterar o estado de elementos HTML do tipo <i>Checkbox</i>, ou <i>radio button</i>. Retorna um booleano, se os elementos estiverem marcados será retornado <strong>True</strong>, se não será retornado <strong>False</strong>.</h4>
