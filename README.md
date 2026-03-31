@@ -69,3 +69,10 @@ Verifica tanto o tipo quanto o número, como um é número e outro é string, ma
 <h1>Estruturas condicionais</h1>
 <h4>if : Faz a execução de um código de um bloco apenas <i>CASO</i> uma condição for verdadeira;</h4>
 <h4>if...else : Faz a execução do primeiro bloco de código para o primeiro bloco cuja condição for verdadeira;</h4>
+<h4>switch : Estrutura de controle de fluxo, faz a avaliação de uma expressão e executa o bloco de código com base em <i>cases</i>;</h4>
+<h1>Estruturas de repetição</h1>
+Permitem a execução de um bloco de código várias vezez, automatizando tarefas.
+<h4>for : Executa a repetição de um bloco de código com base em uma condição;</h4>
+<h4>while : Executa a repetição de um bloco de código enquanto uma condição for verdadeira;</h4>
+<h1>Funções</h1>
+É um bloco de código reutilizável, criado para realizar uma tarefa específica, sendo definido pela palavra <i>function</i>. São usados para organizar códigos, aceitam parâmetros e podem retornar resultados utilizando <i>return</i>.
