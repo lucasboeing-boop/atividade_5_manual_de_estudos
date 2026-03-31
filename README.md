@@ -67,5 +67,5 @@ Verifica tanto o tipo quanto o número, como um é número e outro é string, ma
 <br>
 <br>
 <h1>Estruturas condicionais</h1>
-<h4>if : Faz a execução de um código de um bloco apenas <strong>CASO</strong> uma condição for verdadeira;</h4>
+<h4>if : Faz a execução de um código de um bloco apenas <i>CASO</i> uma condição for verdadeira;</h4>
 <h4>if...else : Faz a execução do primeiro bloco de código para o primeiro bloco cuja condição for verdadeira;</h4>
