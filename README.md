@@ -65,3 +65,7 @@ O operador tenta converter a string em número antes de comparar, mas como possu
 5 !== “5”
 Verifica tanto o tipo quanto o número, como um é número e outro é string, mas como possui o ! retorna true;
 <br>
+<br>
+<h1>Estruturas condicionais</h1>
+<h4>if : Faz a execução de um código de um bloco apenas <strong>CASO</strong> uma condição for verdadeira;</h4>
+<h4>if...else : Faz a execução do primeiro bloco de código para o primeiro bloco cuja condição for verdadeira;</h4>
