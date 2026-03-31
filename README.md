@@ -88,3 +88,5 @@ As <strong>funções com retorno</strong> são blocos de código que após reali
 <h4>.Value : É usado para obter ou definir o valor atual de elementos de formulários HTML.</h4>
 <br>
 <h4>.Checked : Utilizado para verificar ou alterar o estado de elementos HTML do tipo <i>Checkbox</i>, ou <i>radio button</i>. Retorna um booleano, se os elementos estiverem marcados será retornado <strong>True</strong>, se não será retornado <strong>False</strong>.</h4>
+<h4>.TextContent : Usado para obter ou definir o conteúdo de texto de um nó e todos seus descendentes, forma rápida e segura de manipular o texto dentro de elementos HTML.</h4>
+<h4>.Style : Útil para acessar, modificar ou recuperar o CSS inline de um elemento HTML, diretamente pelo script, funcionando como uma ponte entre o CSS e o JavaScript.</h4>
