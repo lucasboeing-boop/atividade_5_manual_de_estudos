@@ -19,3 +19,18 @@ Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usa
 <br>
 <br>
 <i>Escopo Global: Uma variável que quando declarada no escopo global, se torna acessível e modificável em qualquer lugar do script;</i>
+<br>
+<br>
+<i>Escopo função: As variáveis que foram criadas de uma função ficam permanentemente presas ao bloco daquela função, e não é possível acessá-las de fora;</i>
+<br>
+<br>
+<i>Escopo bloco: visibilidade de variáveis dentro de um par de chaves, as variáveis que foram declaradas não podem ser acessadas fora dele;</i>
+<br>
+<br>
+<h2>Operadores aritméticos principais no JS</h2>
+Esses operadores servem para realizar cálculos matemáticos fundamentais, esses operadores são:
+<br>
+<br>
+<h4>+ :</h4> Serve para somar os valores
+<h4>- :</h4> Serve para subtrair os valores
+<h4>* :</h4> Serve para multiplicar os valores
