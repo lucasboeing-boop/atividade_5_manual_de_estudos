@@ -1,4 +1,4 @@
-# JavaScript
+# Manual do JavaScript
 
 <h2>O que é JavaScript?</h2>
 O JavaScript é uma linguagem de programação interpretada de alto nível, essencial para criar sites dinâmicos e interativos. Usado juntamente ao HTML e o CSS, ele permite que elementos da página sejam manipulados, processar dados e criar animações diretamente do navegador do usuário.
@@ -80,13 +80,11 @@ As <strong>funções com parâmetros</strong> passam informações para dentro d
 As <strong>funções com retorno</strong> são blocos de código que após realizarem a sua função, utilizam a palavra <strong><i>return</i></strong> para enviar um valor de volta para onde a função foi chamada, podendo ser armazedo em uma variável, exibido no console ou usado em outras expressões.
 <h2>Manipulação de página com JavaScript</h2>
 <h4>Document : É o objeto porta de entrada para a manipulação de páginas web, ele atua como interface principal entre o <strong><i>script</i></strong> e o <strong><i>HTML/CSS</i></strong>, fazendo assim, parte do <strong>DOM</strong>(Document Object Model), que é a representação de árvore da página que o navegador cria ao carregar o site;</h4>
-<br>
 <h4>GetElementById() : Permite encontrar um elemento HTML específico com base no seu <i>ID</i> único, para que ele possa manipulá-lo;</h4>
-<br>
 <h4>QuerySelector() : Seleciona o primeiro elemento do documento HTML que corresponde a um seletor CSS especificado, retorna um único objeto <strong><i>element</i></strong> e caso nenhum for encontrado, o retorno será <strong><i>null</i></strong>.</h4>
-<br>
 <h4>.Value : É usado para obter ou definir o valor atual de elementos de formulários HTML.</h4>
-<br>
 <h4>.Checked : Utilizado para verificar ou alterar o estado de elementos HTML do tipo <i>Checkbox</i>, ou <i>radio button</i>. Retorna um booleano, se os elementos estiverem marcados será retornado <strong>True</strong>, se não será retornado <strong>False</strong>.</h4>
 <h4>.TextContent : Usado para obter ou definir o conteúdo de texto de um nó e todos seus descendentes, forma rápida e segura de manipular o texto dentro de elementos HTML.</h4>
 <h4>.Style : Útil para acessar, modificar ou recuperar o CSS inline de um elemento HTML, diretamente pelo script, funcionando como uma ponte entre o CSS e o JavaScript.</h4>
+<h4>ClassList: Propriedade moderna de manipular classes CSS de um elemento CSS, retorna uma coleção ativa das classes do elemento, permitindo adicionar, remover, alterar ou verificar a existência de classes específicas sem sobrescrever as outras existentes.</h4>
+<h4>AddEventListener: Usado para escutar eventos em elementos HTML e executar uma função específica para quando esse evento ocorre.</h4>
