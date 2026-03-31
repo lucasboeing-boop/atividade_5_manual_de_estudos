@@ -31,6 +31,6 @@ Variáveis especificadamente no JavaScript são caixas para armazenar dados. Usa
 Esses operadores servem para realizar cálculos matemáticos fundamentais, esses operadores são:
 <br>
 <br>
-<h4>+ :</h4> Serve para somar os valores
-<h4>- :</h4> Serve para subtrair os valores
-<h4>* :</h4> Serve para multiplicar os valores
+<h4>+ : Serve para somar os valores</h4>
+<h4>- : Serve para subtrair os valores</h4>
+<h4>* : Serve para multiplicar os valores</h4>
