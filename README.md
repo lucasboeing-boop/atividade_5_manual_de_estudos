@@ -34,3 +34,8 @@ Esses operadores servem para realizar cálculos matemáticos fundamentais, esses
 <h4>+ : Serve para somar os valores</h4>
 <h4>- : Serve para subtrair os valores</h4>
 <h4>* : Serve para multiplicar os valores</h4>
+<h4>/ : Serve para dividir os valores</h4>
+<h4>% : Serve para verificar o resto da divisão dos valores</h4>
+<h4>** : Serve para exponenciar os valores</h4>
+<h4>++ : Serve para aumentar o número da variável em 1</h4>
+<h4>-- : Serve para diminuir o número da variável em 1</h4>
