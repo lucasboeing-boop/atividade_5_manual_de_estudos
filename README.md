@@ -55,12 +55,9 @@ Esses operadores servem para realizar cálculos matemáticos fundamentais, esses
 <h3>Exemplos</h3>
 5 == ”5”
 O operador tenta converter a string em número antes de comparar, retorna true
-
 5 === “5”
 Verifica tanto o tipo quanto o número, como um é número e outro é string, retorna false
-
 5 != “5”
 O operador tenta converter a string em número antes de comparar, mas como possui o ! retorna false
-
 5 !== “5”
 Verifica tanto o tipo quanto o número, como um é número e outro é string, mas como possui o ! retorna true
