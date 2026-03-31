@@ -39,6 +39,8 @@ Esses operadores servem para realizar cálculos matemáticos fundamentais, esses
 <h4>** : Serve para exponenciar os valores;</h4>
 <h4>++ : Serve para aumentar o número da variável em 1;</h4>
 <h4>-- : Serve para diminuir o número da variável em 1;</h4>
-<h4>= : Serve para verificar se os valores são iguais, mas não se importa com o tipo dos valores;</h4>
-<h4>== : Serve para verificar se os valores são iguais, mas os valores <strong>precisam ser exatamente iguais</strong>;</h4>
-<h4>=== : Serve para aumentar o número da variável em 1;</h4>
+<h4>== : Serve para verificar se os valores são iguais, mas não se importa com o tipo dos valores;</h4>
+<h4>=== : Serve para verificar se os valores são iguais, mas os valores <strong>precisam ser exatamente iguais</strong>;</h4>
+<h4>!= : Serve para verificar se os valores são diferentes;</h4>
+<h4>> : Serve para verificar se o valor à esquerda é maior que o valor da direita;</h4>
+<h4>< : Serve para verificar se o valor à esquerda é menor que o valor da direita;</h4>
