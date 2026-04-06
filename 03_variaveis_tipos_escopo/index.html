@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variaveis no Javascript</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Variaveis</h1>
+    <p>let idade = 25</p>
+    <p>const pi = 3.14</p>
+    <p>var nome = "João"</p>
+
+    <script>
+      {
+        var acessivel = "Eu ignoro o bloco e saio para fora!";
+      }
+      console.log(acessivel);
+    </script>
+
+    <h1>Abra o console para ver o resultado</h1>
+    <script>
+      {
+        let protegida = "Eu estou presa aqui dentro.";
+        const constante = "Eu também não saio daqui.";
+      }
+    </script>
+
+    <script>
+      function testarEscopo() {
+        if (true) {
+          let mensagemSecreta = "Senha123";
+          console.log("Dentro do bloco: " + mensagemSecreta);
+        }
+        console.log(mensagemSecreta);
+      }
+         // O código para de rodar aqui.
+         // O JavaScript diz que essa variável nunca foi criada para este local.
+      testarEscopo();
+    </script>
+  </body>
+</html>

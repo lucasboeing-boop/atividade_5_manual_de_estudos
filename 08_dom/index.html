@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        .destaque { background-color: yellow; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Título Original</h1>
+    <input type="text" id="meuInput" placeholder="Digite algo...">
+    <input type="checkbox" id="meuCheck"> Aceito os termos
+    <button id="btnAcao">Executar Ações</button>
+
+    <script>
+        const btn = document.querySelector("#btnAcao");
+        const titulo = document.getElementById("titulo");
+        const input = document.querySelector("#meuInput");
+        const checkbox = document.querySelector("#meuCheck");
+
+        btn.addEventListener("click", function() {
+            console.log("Texto digitado: " + input.value);
+
+            console.log("Marcado? " + checkbox.checked);
+
+            titulo.textContent = "Texto Alterado pelo JS!";
+
+            titulo.style.color = "red";
+
+            titulo.classList.toggle("destaque");
+        });
+    </script>
+</body>
+</html>
